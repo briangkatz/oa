@@ -355,7 +355,7 @@ var layers = {
 
 var scenes = {
     landing: {lat: 45, lng: -121, zoom: 6, name: 'Landing'},
-    vulnerability_intro: {lat: 44.75, lng: -121, zoom: 7, name: 'Combined', layers: [layers.vulnerability_watersheds, layers.shellfish]},
+    vulnerability_intro: {lat: 44.75, lng: -121, zoom: 7, name: 'Site Selection', layers: [layers.vulnerability_watersheds, layers.shellfish]},
     exposure1: {lat: 40.81, lng: -124.115, zoom: 12, name: 'Mad-Redwood', layers: [layers.amplifiers_mr, layers.shellfish]},
     exposure2: {lat: 45.468348, lng: -123.85, zoom: 12, name: 'Wilson-Trask-Nestucca', layers: [layers.amplifiers_wtn, layers.shellfish]},
     exposure3: {lat: 48.77, lng: -122.46, zoom: 12, name: 'Nooksack', layers: [layers.amplifiers_n, layers.shellfish]},
