@@ -438,6 +438,7 @@ function chart(data) {
 	var x = d3.scaleLinear()
 		.rangeRound([margin.left, width - margin.right])
 		.domain(d3.extent(data, d => d.omega_arag))
+		.range([width - margin.right, margin.left])
 
 	var y = d3.scaleLinear()
 		.rangeRound([height - margin.bottom, margin.top]);
@@ -471,7 +472,7 @@ function chart(data) {
 		  .attr("x", 0 - (height / 2))
 		  .attr("dy", "1em")
 		  .style("text-anchor", "middle")
-		  .text("Growth response (% change from pre-industrial")
+		  .text("Growth response (% change from pre-industrial)")
 
 	var focus = svg.append("g")
 		.attr("class", "focus")

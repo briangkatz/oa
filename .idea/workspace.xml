@@ -29,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/oa-dev/vulnerability/pnw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oa-dev/fieldwork/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,11 +44,11 @@
       <recent name="C:\Workspace\oa\oa-dev\vulnerability\pnw\assets\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\oa\oa-dev\fieldwork\assets" />
       <recent name="C:\Workspace\oa\oa-dev\vulnerability\pnw" />
       <recent name="C:\Workspace\oa\oa-dev\fieldwork" />
       <recent name="C:\Workspace\oa\oa-dev\vulnerability\pnw\js" />
       <recent name="C:\Workspace\oa\oa-dev\vulnerability\pnw\assets" />
-      <recent name="C:\Workspace\oa\oa-dev\fieldwork\assets" />
     </key>
   </component>
   <component name="RunDashboard">
