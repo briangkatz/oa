@@ -161,6 +161,9 @@
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_oct20190910205443938" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_oct.tif" name="10yr_mean_arag_2040s_oct">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_jan20190910205056995" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_jan.tif" name="10yr_mean_arag_2040s_jan">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_sep20190910205421818" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_sep.tif" name="10yr_mean_arag_2040s_sep">
       <customproperties/>
     </layer-tree-layer>
@@ -171,15 +174,6 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_jun20190910205312228" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_jun.tif" name="10yr_mean_arag_2040s_jun">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_feb20190910210155075" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_feb.tif" name="5yr_mean_arag_1990s_feb">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_mar20190910210131500" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_mar.tif" name="5yr_mean_arag_1990s_mar">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_apr20190910210110348" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_apr.tif" name="5yr_mean_arag_1990s_apr">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_may20190910205242483" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_may.tif" name="10yr_mean_arag_2040s_may">
@@ -194,19 +188,19 @@
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_feb20190910205123877" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_feb.tif" name="10yr_mean_arag_2040s_feb">
       <customproperties/>
     </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_feb20190910210155075" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_feb.tif" name="5yr_mean_arag_1990s_feb">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_mar20190910210131500" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_mar.tif" name="5yr_mean_arag_1990s_mar">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_apr20190910210110348" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_apr.tif" name="5yr_mean_arag_1990s_apr">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_nov20190910205758438" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_nov.tif" name="5yr_mean_arag_1990s_nov">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_dec20190910205726319" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_dec.tif" name="5yr_mean_arag_1990s_dec">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="arag_199620190910205710746" source="C:/Workspace/geog562/decadal_mean_arag_per_month/years_all/arag_1996.tif" name="Arag_1996">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="arag_199520190910205710684" source="C:/Workspace/geog562/decadal_mean_arag_per_month/years_all/arag_1995.tif" name="Arag_1995">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="arag_199920190910205710644" source="C:/Workspace/geog562/decadal_mean_arag_per_month/years_all/arag_1999.tif" name="Arag_1999">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_may20190910210045233" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_may.tif" name="5yr_mean_arag_1990s_may">
@@ -225,15 +219,6 @@
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="5yr_mean_arag_1990s_oct20190910205847954" source="C:/Workspace/geog562/decadal_mean_arag_per_month/5yr_mean_arag_1990s_oct.tif" name="5yr_mean_arag_1990s_oct">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="arag_199820190910205710610" source="C:/Workspace/geog562/decadal_mean_arag_per_month/years_all/arag_1998.tif" name="Arag_1998">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="arag_199720190910205710573" source="C:/Workspace/geog562/decadal_mean_arag_per_month/years_all/arag_1997.tif" name="Arag_1997">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="10yr_mean_arag_2040s_jan20190910205056995" source="C:/Workspace/geog562/decadal_mean_arag_per_month/10yr_mean_arag_2040s_jan.tif" name="10yr_mean_arag_2040s_jan">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Unchecked" id="corrosive20190910172034482" source="C:/Workspace/oa/oa-dev/exposure/assets/corrosive.geojson" name="Corrosive corrosive Point">
@@ -609,11 +594,6 @@
       <item>10yr_mean_arag_2040s_oct20190910205443938</item>
       <item>10yr_mean_arag_2040s_nov20190910205506115</item>
       <item>10yr_mean_arag_2040s_dec20190910205530628</item>
-      <item>arag_199720190910205710573</item>
-      <item>arag_199820190910205710610</item>
-      <item>arag_199920190910205710644</item>
-      <item>arag_199520190910205710684</item>
-      <item>arag_199620190910205710746</item>
       <item>5yr_mean_arag_1990s_dec20190910205726319</item>
       <item>5yr_mean_arag_1990s_nov20190910205758438</item>
       <item>5yr_mean_arag_1990s_oct20190910205847954</item>
@@ -888,6 +868,11 @@
         <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_oct20190910205443938" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="10yr_mean_arag_2040s_jan" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_jan20190910205056995" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="10yr_mean_arag_2040s_sep" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_sep20190910205421818" visible="0"/>
@@ -906,21 +891,6 @@
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="10yr_mean_arag_2040s_jun" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_jun20190910205312228" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_feb" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_feb20190910210155075" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_mar" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_mar20190910210131500" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_apr" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_apr20190910210110348" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="10yr_mean_arag_2040s_may" showFeatureCount="0">
@@ -943,6 +913,21 @@
         <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_feb20190910205123877" visible="0"/>
       </filegroup>
     </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_feb" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_feb20190910210155075" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_mar" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_mar20190910210131500" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_apr" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_apr20190910210110348" visible="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_nov" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_nov20190910205758438" visible="0"/>
@@ -951,21 +936,6 @@
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_dec" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_dec20190910205726319" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Arag_1996" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="arag_199620190910205710746" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Arag_1995" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="arag_199520190910205710684" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Arag_1999" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="arag_199920190910205710644" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_may" showFeatureCount="0">
@@ -996,21 +966,6 @@
     <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="5yr_mean_arag_1990s_oct" showFeatureCount="0">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" layerid="5yr_mean_arag_1990s_oct20190910205847954" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Arag_1998" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="arag_199820190910205710610" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Arag_1997" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="arag_199720190910205710573" visible="0"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="10yr_mean_arag_2040s_jan" showFeatureCount="0">
-      <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="10yr_mean_arag_2040s_jan20190910205056995" visible="0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Corrosive corrosive Point" showFeatureCount="0">
@@ -15743,361 +15698,6 @@ def my_form_open(dialog, layer, feature):
         <default field="PARENT" expression=""/>
       </defaults>
       <previewExpression></previewExpression>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-137.17882164970527015</xmin>
-        <ymin>26.08142060734551748</ymin>
-        <xmax>-117.58492952366353279</xmax>
-        <ymax>48.55403622109953687</ymax>
-      </extent>
-      <id>arag_199520190910205710684</id>
-      <datasource>../../../geog562/decadal_mean_arag_per_month/years_all/arag_1995.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Arag_1995</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
-        <noDataList bandNo="2" useSrcNoData="1"/>
-        <noDataList bandNo="3" useSrcNoData="1"/>
-        <noDataList bandNo="4" useSrcNoData="1"/>
-        <noDataList bandNo="5" useSrcNoData="1"/>
-        <noDataList bandNo="6" useSrcNoData="1"/>
-        <noDataList bandNo="7" useSrcNoData="1"/>
-        <noDataList bandNo="8" useSrcNoData="1"/>
-        <noDataList bandNo="9" useSrcNoData="1"/>
-        <noDataList bandNo="10" useSrcNoData="1"/>
-        <noDataList bandNo="11" useSrcNoData="1"/>
-        <noDataList bandNo="12" useSrcNoData="1"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>1.924268681406975</minValue>
-            <maxValue>2.824687870144844</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>1.88720262169838</minValue>
-            <maxValue>2.811191623210907</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>1.870503665447235</minValue>
-            <maxValue>2.817464211463928</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-137.17919628025825318</xmin>
-        <ymin>26.08129955156295665</ymin>
-        <xmax>-117.585201712907363</xmax>
-        <ymax>48.55403265724501694</ymax>
-      </extent>
-      <id>arag_199620190910205710746</id>
-      <datasource>../../../geog562/decadal_mean_arag_per_month/years_all/arag_1996.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Arag_1996</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
-        <noDataList bandNo="2" useSrcNoData="1"/>
-        <noDataList bandNo="3" useSrcNoData="1"/>
-        <noDataList bandNo="4" useSrcNoData="1"/>
-        <noDataList bandNo="5" useSrcNoData="1"/>
-        <noDataList bandNo="6" useSrcNoData="1"/>
-        <noDataList bandNo="7" useSrcNoData="1"/>
-        <noDataList bandNo="8" useSrcNoData="1"/>
-        <noDataList bandNo="9" useSrcNoData="1"/>
-        <noDataList bandNo="10" useSrcNoData="1"/>
-        <noDataList bandNo="11" useSrcNoData="1"/>
-        <noDataList bandNo="12" useSrcNoData="1"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>1.931788177490234</minValue>
-            <maxValue>2.826389967918396</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>1.893014763593674</minValue>
-            <maxValue>2.815244852542877</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>1.87123750436306</minValue>
-            <maxValue>2.829241500854492</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-137.17919628025825318</xmin>
-        <ymin>26.08129955156295665</ymin>
-        <xmax>-117.585201712907363</xmax>
-        <ymax>48.55403265724501694</ymax>
-      </extent>
-      <id>arag_199720190910205710573</id>
-      <datasource>../../../geog562/decadal_mean_arag_per_month/years_all/arag_1997.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Arag_1997</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
-        <noDataList bandNo="2" useSrcNoData="1"/>
-        <noDataList bandNo="3" useSrcNoData="1"/>
-        <noDataList bandNo="4" useSrcNoData="1"/>
-        <noDataList bandNo="5" useSrcNoData="1"/>
-        <noDataList bandNo="6" useSrcNoData="1"/>
-        <noDataList bandNo="7" useSrcNoData="1"/>
-        <noDataList bandNo="8" useSrcNoData="1"/>
-        <noDataList bandNo="9" useSrcNoData="1"/>
-        <noDataList bandNo="10" useSrcNoData="1"/>
-        <noDataList bandNo="11" useSrcNoData="1"/>
-        <noDataList bandNo="12" useSrcNoData="1"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>1.923223994731903</minValue>
-            <maxValue>2.825284663319588</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>1.89166550207138</minValue>
-            <maxValue>2.806919880509376</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>1.866963483214378</minValue>
-            <maxValue>2.800908190488816</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-137.17919628025825318</xmin>
-        <ymin>26.08129955156295665</ymin>
-        <xmax>-117.585201712907363</xmax>
-        <ymax>48.55403265724501694</ymax>
-      </extent>
-      <id>arag_199820190910205710610</id>
-      <datasource>../../../geog562/decadal_mean_arag_per_month/years_all/arag_1998.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Arag_1998</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
-        <noDataList bandNo="2" useSrcNoData="1"/>
-        <noDataList bandNo="3" useSrcNoData="1"/>
-        <noDataList bandNo="4" useSrcNoData="1"/>
-        <noDataList bandNo="5" useSrcNoData="1"/>
-        <noDataList bandNo="6" useSrcNoData="1"/>
-        <noDataList bandNo="7" useSrcNoData="1"/>
-        <noDataList bandNo="8" useSrcNoData="1"/>
-        <noDataList bandNo="9" useSrcNoData="1"/>
-        <noDataList bandNo="10" useSrcNoData="1"/>
-        <noDataList bandNo="11" useSrcNoData="1"/>
-        <noDataList bandNo="12" useSrcNoData="1"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>1.931672701358795</minValue>
-            <maxValue>2.816333909749985</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>1.897644939422607</minValue>
-            <maxValue>2.792834709882736</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>1.876226786494255</minValue>
-            <maxValue>2.795188005447388</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>-137.17919628025825318</xmin>
-        <ymin>26.08129955156295665</ymin>
-        <xmax>-117.585201712907363</xmax>
-        <ymax>48.55403265724501694</ymax>
-      </extent>
-      <id>arag_199920190910205710644</id>
-      <datasource>../../../geog562/decadal_mean_arag_per_month/years_all/arag_1999.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>Arag_1999</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="1"/>
-        <noDataList bandNo="2" useSrcNoData="1"/>
-        <noDataList bandNo="3" useSrcNoData="1"/>
-        <noDataList bandNo="4" useSrcNoData="1"/>
-        <noDataList bandNo="5" useSrcNoData="1"/>
-        <noDataList bandNo="6" useSrcNoData="1"/>
-        <noDataList bandNo="7" useSrcNoData="1"/>
-        <noDataList bandNo="8" useSrcNoData="1"/>
-        <noDataList bandNo="9" useSrcNoData="1"/>
-        <noDataList bandNo="10" useSrcNoData="1"/>
-        <noDataList bandNo="11" useSrcNoData="1"/>
-        <noDataList bandNo="12" useSrcNoData="1"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>1.911906772255898</minValue>
-            <maxValue>2.823344870209694</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>1.891648219943047</minValue>
-            <maxValue>2.811151044130325</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>1.8862716588974</minValue>
-            <maxValue>2.8296587266922</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
     </maplayer>
     <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <extent>
