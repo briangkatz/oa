@@ -49,6 +49,10 @@
     color: #C9F5F6;
 }
 
+.arag {
+    z-index: -1;
+}
+
 .hatchery-warning {
     color: rgb(227, 237, 0);
     text-shadow: 0 0 3px rgb(0, 0, 0);
@@ -203,4 +207,95 @@ section > p {
 
 .caption {
     font-size: 18px;
+}
+
+.map {
+    padding: 10px;
+}
+
+p a {
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 1vw;
+}
+
+p a:hover {
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 1vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    background-color: rgba(0, 7, 10, 0.75);
+    transition: all 0.05s ease-in-out;
+}
+
+.overlay:hover {
+    opacity: 0.8;
+}
+
+.text {
+    font-family: Oswald, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1vw;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-family: Oswald, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 2vw;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+}
+
+h3 a {
+    color: white;
+    font-size: 3vw;
+}
+
+h3.storytext {
+    font-family: Oswald, sans-serif;
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 1vw;
+    text-shadow: 0 0 0 rgba(0, 0, 0, .95);
+}
+
+h3 a:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000000;
+    font-size: 3vw;
+}
+
+h4 {
+    margin-top: 10%;
+    font-family: Oswald, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 2vw;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+}
+
+@media (min-width: 768px) {
+    .attribution {
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .attribution {
+        font-size: 3vw;
+    }
 }
