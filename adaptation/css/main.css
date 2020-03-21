@@ -1,3 +1,14 @@
+.leaflet-tooltip.feature-label {
+    background-color: transparent;
+    border: transparent;
+    box-shadow: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 4px #800080;
+    color: rgb(255, 255, 255);
+}
+
 .feature-label {
     font-family: Oswald, sans-serif;
     color: #7b7b9b;

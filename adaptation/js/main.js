@@ -1,3 +1,9 @@
+var hideLabel = function(label){ label.labelObject.style.opacity = 0;};
+var showLabel = function(label){ label.labelObject.style.opacity = 1;};
+var labelEngine = new labelgun.default(hideLabel, showLabel);
+
+var labels = [];
+
 // define color scale for point data markers
 var colors = chroma.scale(['#A5BF15', '#C9F5F6']).mode('lch').colors(6);
 // set color of markers based on .marker-color-#
@@ -22,16 +28,23 @@ var layers = {
 //            className: "arag"
 //        })
 //    },
-    netarts: {
-        layer: L.geoJson.ajax('assets/netarts.geojson', {
-            color: 'black',
-            weight: 2,
-            opacity: 0.3,
-            onEachFeature: onEachFeature
-            //
-            //     function (feature, layer) {
-            //     layer.bindTooltip(feature.properties.name, {sticky: true, className: "feature-tooltip"});
-            // }
+    estuaries: {
+        layer: L.geoJson.ajax('assets/estuaries.geojson', {
+            color: 'gray',
+            weight: 0,
+            opacity: 0,
+            fillOpacity: 0.001,
+            onEachFeature: function (feature, layer) {
+                layer.bindTooltip(feature.properties.nca_name, {sticky: true, className: "feature-tooltip"});
+            }
+//             function (feature, label) {
+//                label.bindTooltip(feature.properties.name, {
+//                    className: 'feature-label',
+//                    permanent: true,
+//                    direction: 'center'
+//                });
+//                labels.push(label);
+//            }
         })
     },
     stakeholders: {
@@ -151,7 +164,7 @@ var layers = {
 
 var scenes = {
     overview: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Overview'},
-    whiskey: {lat: 45.408, lng: -123.950140, zoom: 13, name: 'Whiskey Creek', layers: ['hatchery', 'netarts', 'shellfish']},
+    whiskey: {lat: 45.408, lng: -123.950140, zoom: 14, name: 'Whiskey Creek', layers: ['hatchery', 'estuaries', 'shellfish']},
     network: {lat: 46, lng: -124, zoom: 7, name: 'Importance to Network', layers: ['hatchery2', 'stakeholders', 'shellfish']},
     seed: {lat: 46, lng: -124, zoom: 7, name: 'Oyster Seed Crisis', layers: ['hatchery3', 'stakeholders2', 'shellfish']},
     adaptation: {lat: 46, lng: -124, zoom: 7, name: 'Adaptive Capacity', layers: ['funded_projects', 'shellfish']},

@@ -299,7 +299,7 @@
 
                 $(this).addClass('viewing');
 
-                $(".storymap-scroll-down").css("left", "2%");
+                $(".storymap-scroll-down").css("right", "2%");
 
                 if (typeof $(this).data("background") !== 'undefined') {
                     $(this)
@@ -307,7 +307,7 @@
                         .css('width', "0px")
                         .css('padding', "0 0 0 0");
 
-                    $(".storymap-scroll-down").css("left", "50%");
+                    $(".storymap-scroll-down").css("right", "50%");
 
 
                 }
