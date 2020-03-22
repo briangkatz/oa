@@ -42,8 +42,7 @@
             progressline: true,
             mapinteraction: false,
             createMap: function () {
-                var map = L.map($('.storymap-map')[0], {zoomControl: false}).setView([44, -120], 7);
-                // L.tileLayer('http://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}@2x.png').addTo(map);
+                var map = L.map($('.storymap-map')[0], {zoomControl: false}).setView([45, -124], 7);
                 return map;
             }
         };
@@ -338,13 +337,13 @@
                     map.flyTo([scene.lat, scene.lng], scene.zoom, {
                         animate: true,
                         easeLinearity: 1,
-                        duration: 2 // in seconds
+                        duration: 3 // in seconds
                     })
                 } else {
                     map.setView([scene.lat, scene.lng], scene.zoom, {
                         animate: false,
                         easeLinearity: 1,
-                        duration: 2 // in seconds
+                        duration: 3 // in seconds
                     })
 
                 }

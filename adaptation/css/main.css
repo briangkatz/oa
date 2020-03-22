@@ -74,23 +74,6 @@
     color: rgba(224, 99, 29, 0.3);
 }
 
-/* hide the zoom control when screen size is reduced */
-@media screen and (max-width: 575px) {
-    .leaflet-control-zoom {
-        display: none !important;
-    }
-    /*#begin p {*/
-        /*position: fixed;*/
-        /*top: 5px;*/
-        /*right: 7px;*/
-    /*}*/
-    /*#begin > p > img {*/
-        /*position: fixed;*/
-        /*right: 5px;*/
-        /*top: 30px;*/
-    /*}*/
-}
-
 @keyframes fade {
     from { opacity: 0.5; }
 }
@@ -299,7 +282,30 @@ h4 {
     text-shadow: 0 0 6px rgba(0, 0, 0, .95);
 }
 
+.leaflet-control-zoom {
+    position: fixed;
+    top: 160px;
+    left: 3px;
+}
+
+@media screen and (max-width: 575px) {
+    .leaflet-control-zoom {
+        display: none !important;
+    }
+}
+
 @media (min-width: 768px) {
+    .attribution {
+        font-size: 1vw;
+    }
+    .storymap-story {
+        position: absolute ;
+        right: 5px;
+    }
+    .storymap-legend {
+        top: 100px;
+        left: 100px;
+    }
     .attribution {
         font-size: 1vw;
     }
@@ -309,4 +315,97 @@ h4 {
     .attribution {
         font-size: 3vw;
     }
+}
+
+@media (max-width: 992px) {
+    .leaflet-control-zoom {
+        position: relative;
+        bottom: 20px;
+    }
+}
+
+div.figure-title {
+    width: 200px;
+}
+
+.info {
+    width: 420px;
+    height: 110px;
+    z-index: 1000;
+    position: fixed;
+    right: 1700px;
+    top: 100px;
+    padding: 6px 8px;
+    font: 14px Oswald, sans-serif;
+    text-align: left;
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 15px #0e201d;
+    border-radius: 5px;
+}
+
+.update p {
+    font-size: 14px;
+    margin: 0 0 0;
+    color: #000000;
+}
+
+.update h2 {
+    font-size: 24px;
+    margin: 0 0 0;
+    color: #000000;
+}
+.update h2.subtitle {
+    font-size: 24px;
+    margin: 0 0 0;
+    color: #000000;
+}
+
+div.storymap-legend {
+    width: 260px;
+}
+
+.leaflet-control-scale {
+    position: fixed;
+    left: 100px;
+    bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+div.modal-content {
+    width: 504px;
+}
+
+.viewing {
+    color: #1c1c1c;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    opacity: 1.0;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+}
+
+#nav-title {
+    font-family: Oswald, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 22px;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h5 {
+    font-family: Oswald, sans-serif;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 1vw;
+    text-shadow: 0 0 6px rgba(0, 0, 0, .95);
+}
+
+.storymap-attribution {
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }

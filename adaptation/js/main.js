@@ -72,18 +72,6 @@ var layers = {
             }
         })
     },
-//    whiskey_lines: {
-//        layer: L.geoJson.ajax('assets/whiskey_network.geojson', {
-//            style: function(feature) {
-//                return {
-//                    color: 'green',
-//                    dashArray: "20, 10",
-//                    weight: 4,
-//                    opacity: 0.15
-//                };
-//            }
-//        })
-//    },
     hatchery: {
         layer: L.geoJson.ajax('assets/hatchery.geojson', {
             pointToLayer: function (feature, latlng) {
@@ -145,54 +133,40 @@ var layers = {
             }
         })
     },
-//    funding_lines: {
-//        layer: L.geoJson.ajax('assets/funding_lines.geojson', {
-//            style: function(feature) {
-//                return {
-//                    color: 'gray',
-//                    dashArray: "20, 10",
-//                    weight: 4,
-//                    opacity: 0.15
-//                };
-//            }
-//        })
-//    },
     shellfish: {
         layer: L.tileLayer('https://api.mapbox.com/styles/v1/katzbr/cjshza9xf1db51fqgpriounjs/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2F0emJyIiwiYSI6ImNqOHhmMnBucDIwZm4ycW8ya2d5cHF0cmsifQ.8rcjz0DyWs_ncWfOZ0VwKA')
     }
 };
 
 var scenes = {
-    overview: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Overview'},
-    whiskey: {lat: 45.408, lng: -123.950140, zoom: 14, name: 'Whiskey Creek', layers: ['hatchery', 'estuaries', 'shellfish']},
-    network: {lat: 46, lng: -124, zoom: 7, name: 'Importance to Network', layers: ['hatchery2', 'stakeholders', 'shellfish']},
-    seed: {lat: 46, lng: -124, zoom: 7, name: 'Oyster Seed Crisis', layers: ['hatchery3', 'stakeholders2', 'shellfish']},
-    adaptation: {lat: 46, lng: -124, zoom: 7, name: 'Adaptive Capacity', layers: ['funded_projects', 'shellfish']},
-    success: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Successful Adaptation', layers: ['hatchery', 'shellfish']},
-    end: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'The End'}
+    overview: {lat: 45, lng: -124, zoom: 7, name: 'Overview'},
+    whiskey: {lat: 45.408, lng: -123.950140, zoom: 13, name: 'Whiskey Creek', layers: [layers.hatchery, layers.estuaries, layers.shellfish]},
+    network: {lat: 45, lng: -124, zoom: 7, name: 'Importance to Network', layers: [layers.hatchery2, layers.stakeholders, layers.shellfish]},
+    seed: {lat: 45, lng: -124, zoom: 7, name: 'Oyster Seed Crisis', layers: [layers.hatchery3, layers.stakeholders2, layers.shellfish]},
+    adaptation: {lat: 45, lng: -124, zoom: 7, name: 'Adaptive Capacity', layers: [layers.funded_projects, layers.shellfish]},
+    success: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Successful Adaptation', layers: [layers.hatchery, layers.shellfish]},
+    end: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Assessment'}
 };
 
 $('#storymap').storymap({
     scenes: scenes,
-    layers: layers,
     baselayer: layers.shellfish,
+    navbar: true,
     legend: true,
     credits: "",
     loader: true,
     scalebar: false,
+    flyto: true,
     navwidget: true,
 
     createMap: function () {
         // create a map in the "map" div, set the default view and zoom level
         var map = L.map($(".storymap-map")[0], {
             zoomControl: false,
-            scrollWheelZoom: false
-        }).setView([45.408, -123.960140], 13);
-
-        // add zoom control with custom position
-        L.control.zoom({
-            position:'bottomright'
-        }).addTo(map);
+            scrollWheelZoom: false,
+            fadeAnimation: true,
+            zoomAnimation: true
+        }).setView([45.408, -123.950140], 13);
 
         return map;
     }
