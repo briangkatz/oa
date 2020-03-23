@@ -200,7 +200,7 @@ section > p {
 }
 
 .caption {
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 .map {
@@ -211,6 +211,7 @@ p a {
     color: black;
     font-family: Oswald, sans-serif;
     font-size: 1vw;
+    text-decoration: none;
 }
 
 p a:hover {

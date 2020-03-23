@@ -19,6 +19,8 @@ function onEachFeature(feature, layer) {
     layer.bindTooltip(feature.properties.name, {sticky: true, className: "feature-tooltip"});
 }
 
+shellfish_network = null;
+
 // Layer, Scene, and Story Map Management
 var layers = {
 //    arag2050: {
@@ -148,6 +150,7 @@ var scenes = {
     end: {lat: 45.408, lng: -123.960140, zoom: 13, name: 'Assessment'}
 };
 
+
 $('#storymap').storymap({
     scenes: scenes,
     baselayer: layers.shellfish,
@@ -158,9 +161,8 @@ $('#storymap').storymap({
     scalebar: false,
     flyto: true,
     navwidget: true,
-
     createMap: function () {
-        // create a map in the "map" div, set the default view and zoom level
+        // Create a map in the "map" div, set the default view and zoom level
         var map = L.map($(".storymap-map")[0], {
             zoomControl: false,
             scrollWheelZoom: false,

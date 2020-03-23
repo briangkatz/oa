@@ -337,13 +337,13 @@
                     map.flyTo([scene.lat, scene.lng], scene.zoom, {
                         animate: true,
                         easeLinearity: 1,
-                        duration: 3 // in seconds
+                        duration: 2 // in seconds
                     })
                 } else {
                     map.setView([scene.lat, scene.lng], scene.zoom, {
                         animate: false,
                         easeLinearity: 1,
-                        duration: 3 // in seconds
+                        duration: 2 // in seconds
                     })
 
                 }
