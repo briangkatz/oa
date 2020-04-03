@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="425782dc-40e7-43c1-b813-efea3752bc7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/assets/links.csv" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/assets/links.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/assets/nodes.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/assets/nodes.geojson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/img/larvae22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/img/netarts.png" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/img/netarts.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
