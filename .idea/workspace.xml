@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="425782dc-40e7-43c1-b813-efea3752bc7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/corrosive_arag_nearshore.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/hexagons.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +129,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="183" y="3" width="985" height="1379" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1584893631772" />
+    <state x="1468" y="305" width="585" height="795" key="find.popup" timestamp="1587500747257">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1468" y="305" width="585" height="795" key="find.popup/0.0.2560.1400/-768.1080.768.1326@0.0.2560.1400" timestamp="1587500747257" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1587499799149">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
