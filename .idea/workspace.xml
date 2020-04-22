@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="425782dc-40e7-43c1-b813-efea3752bc7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/stakeholders.geojson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/watersheds_pnw.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/assets/data/watersheds_pnw.geojson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/license2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/style2.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vulnerability/pnw/css/oa.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/css/oa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
