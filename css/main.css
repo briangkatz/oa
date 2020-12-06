@@ -1,5 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
+header.masthead {
+    background: url('../img/fieldwork_resized.png') repeat center center;
+}
+
+#iconSection, #partnerSection {
+    border-style: solid;
+    border-width: 5px 0 5px 0;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+.call-to-action {
+    background: url('../img/mussels.jpg') repeat center center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+a {
+    color: rgba(255,255,255,.5);
+}
+
+a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+
+.bg-dark {
+    background-color: #0e201d !important;
+}
+
+.text-primary {
+    color: #ffffff!important;
+}
+
+img {
+    background: #F4F5F6;
+}
+
+p {
+    color: rgba(255,255,255,.5);
+}
+
+#mainNav {
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
 body {
     font-family: Oswald !important;
 }
