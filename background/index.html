@@ -252,8 +252,6 @@
 <!-- main javascript -->
 <script type="text/javascript">
 
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 1: Plain
     var ecoregions_legend = '<i style="background: black; opacity: 0.5"></i><p><b>Ecoregions</b></p>';
     var ecoregions = L.geoJson.ajax('assets/upwelling_ecoregions.geojson', {
         color: 'black',
@@ -268,9 +266,6 @@
         }
     });
 
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 2: Choropleth
-    // Set function for color ramp
     function setColor(GROWER_CNT) {
         //Tenary operation: condition ? valueIfTrue : valueIfFalse
         // condition ? value1 : value2
@@ -281,7 +276,6 @@
                         '#ffffff';
     }
 
-    // Set style function that sets fill color property equal to grower count
     function style(feature) {
         return {
             fillColor: setColor(feature.properties.GROWER_CNT),
@@ -306,7 +300,6 @@
             }
         });
 
-
     var ecoregions_choropleth_legend = '<p><b># of Growers</b></p>' +
         '<i style="background: #ffffff; opacity: 0.5"></i><p><b>0</b></p>' +
         '<i style="background: #e8ded5; opacity: 0.5"></i><p><b>1 - 19</b></p>' +
@@ -314,83 +307,12 @@
         '<i style="background: #b89e85; opacity: 0.5"></i><p><b>40 - 59</b></p>' +
         '<i style="background: #a08060; opacity: 0.5"></i><p><b>60+</b></p>';
 
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 3: Marker
-
    $('html > head').append($("<style> .marker-icon { color: red; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
-   // $('html > head').append($("<style> .marker-icon { color: #0000ff; font-size: 15px; text-shadow:1px 1px 2px #ffffff, 0 0 25px rgba(0,0,255,0.75), 0 0 5px rgba(0,0,139,0.78);} </style>")); // glow effect: https://adventuresinmapping.com/2016/10/17/firefly-cartography/
-
-//    var growers = L.geoJson.ajax('assets/growers.geojson', {
-//        pointToLayer: function (feature, latlng) {
-//
-//            delay = Math.floor((126 + latlng.lng) / 10 * 2000);
-//            //delay =Math.floor(Math.random() * 400);
-//
-//            return L.marker(latlng, {
-//                bounceOnAdd: true,
-//                bounceOnAddOptions: {duration: 200, height: window.innerHeight, delay: delay},
-//                icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon'})
-//            });
-//        },
-//        onEachFeature: function (feature, layer) {
-//            layer.bindTooltip(feature.properties.Company, {sticky: true, className: "feature-tooltip"});
-//        }
-//    });
-//
-//
-//    var grower_legend = '<i class="glyphicon glyphicon-star marker-icon"></i><p><b>Shellfish Growers</b></p>';
-
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 4: Grower Markers categorized by Region
 
     var colors = chroma.scale('Set2').mode('lch').colors(10);
     for (i = 1; i < 11; i++) {
         $('html > head').append($("<style> .marker-icon-" + i.toString() + " { color: " + colors[i] + "; font-size: 15px; text-shadow: 0 0 3px #ffffff;} </style>"));
     }
-
-//    var growers_color = L.geoJson.ajax('assets/growers.geojson', {
-//        pointToLayer: function (feature, latlng) {
-//            if (feature.properties.Region === "Alaska") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-1'})});
-//            } else if (feature.properties.Region === "Hood Canal") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-2'})});
-//            } else if (feature.properties.Region === "North Sound") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-3'})});
-//            } else if (feature.properties.Region === "South Sound") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-4'})});
-//            } else if (feature.properties.Region === "Grays Harbor") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-5'})});
-//            } else if (feature.properties.Region === "Willapa Bay") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-6'})});
-//            } else if (feature.properties.Region === "Northern Oregon") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-7'})});
-//            } else if (feature.properties.Region === "Southern Oregon") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-8'})});
-//            } else if (feature.properties.Region === "California") {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-9'})});
-//            } else {
-//                return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-star marker-icon-10'})});
-//            }
-//        },
-//        onEachFeature: function (feature, layer) {
-//            layer.bindTooltip(feature.properties.Region, {sticky: true, className: "feature-tooltip"});
-//        }
-//    });
-
-//    var growers_color_legend = '<p><b>Shellfish Grower Regions</b></p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-1"></i><p>Alaska</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-2"></i><p>Hood Canal</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-3"></i><p>North Puget Sound</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-4"></i><p>South Puget Sound</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-5"></i><p>Grays Harbor</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-6"></i><p>Willapa Bay</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-7"></i><p>Northern Oregon</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-8"></i><p>Southern Oregon</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-9"></i><p>California</p>' +
-//        '<i class="glyphicon glyphicon-star marker-icon-10"></i><p>Others</p>';
-
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 5: circleMarker
 
     var collaboration_circle = L.geoJson.ajax('assets/collaboration.geojson', {
         style: function (feature) {
@@ -413,39 +335,14 @@
 
     var collaboration_circle_legend = '<i class=""><svg height="16" width="16"> <circle cx="8" cy="8" r="6" stroke="white" stroke-width="1" fill="a0a0c0" fillOpacity="0.4" /> </svg></i><p><b>Research Partners</b></p>';
 
-    //////////////////////////////////////////////////////////////////////////
-    // Scene 6: circleMarker in glow effects
-
-//    var growers_circle2 = L.geoJson.ajax('assets/growers.geojson', {
-//        pointToLayer: function (feature, latlng) {
-//           // return L.circle(latlng, 1000 * Math.pow(Math.floor((Math.random() * 3) + 1), 2));
-//            return L.marker(latlng, {icon: L.divIcon({className: 'glyphicon glyphicon-one-fine-smaller-dot glow-effect'})});
-//        },
-//        onEachFeature: function (feature, layer) {
-//            layer.bindTooltip(feature.properties.Company, {sticky: true, className: "feature-tooltip"});
-//        }
-//    });
-//
-//    var growers_circle2_legend = '<i class=""><svg height="16" width="16"> <circle cx="8" cy="8" r="6" stroke="white" stroke-width="0" fill="#00ff00" fillOpacity="0.4" /> </svg></i><p><b>Shellfish Growers</b></p>';
-
     var darkLayer = L.tileLayer('http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png');
-
-    //////////////////////////////////////////////////////////////////////////
 
     var layers = {
         ecoregions: {layer: ecoregions, legend: ecoregions_legend},
         ecoregions_choropleth: {layer: ecoregions_choropleth, legend: ecoregions_choropleth_legend},
-//        growers: {layer: growers, legend: grower_legend},
-//        growers_color: {layer: growers_color, legend: growers_color_legend},
         collaboration_circle: {layer: collaboration_circle, legend: collaboration_circle_legend},
-//        growers_circle2: {layer: growers_circle2, legend: growers_circle2_legend},
         darkLayer: {layer: darkLayer},
         ESRI: {layer: L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')},
-
-//        GEE: {
-//            layer: L.tileLayer('http://earthengine.google.org/static/hansen_2013/tree_alpha/{z}/{x}/{y}.png'),
-//            legend: grower_legend
-//        },
         satellite: {
             layer: L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiamFrb2J6aGFvIiwiYSI6ImNpcms2YWsyMzAwMmtmbG5icTFxZ3ZkdncifQ.P9MBej1xacybKcDN_jehvw', {
                 id: 'mapbox.satellite'
@@ -476,23 +373,14 @@
         scenes: scenes,
         layers: layers,
         baselayer: layers.shellfish,
-        legend: false, // if you do not want a legend feature, you can simply not define the createLegend function.
+        legend: false,
         credits: "",
         loader: true,
         scalebar: false,
         navwidget: true,
 
         createMap: function () {
-            // create a map in the "map" div, set the view to a given place and zoom
             var map = L.map($(".storymap-map")[0], {zoomControl: false, scrollWheelZoom: false}).setView([55, -138], 4);
-
-//         //   add an miniglobe
-//            new L.Control.GlobeMiniMap({
-//                marker: 'red',
-//                position: 'bottomright'
-//            }).addTo(map);
-
-
             return map;
         }
     });
