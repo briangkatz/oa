@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425782dc-40e7-43c1-b813-efea3752bc7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/background/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/analysis/oa_climate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/combined_harvest_geojson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/create_geojson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/create_json_photo_markers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/dissolve_shapefile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/filter_time_series.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/merge_txt_years.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/merge_xyz_variables.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/merge_xyz_years.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/netcdf_to_tif_to_xyz_to_txt_to_geojson.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/parse_html_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/parse_netcdf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/parse_pdf_table.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/retrieve-images.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/preprocessing/tif_to_xyz.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
