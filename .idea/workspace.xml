@@ -2,66 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425782dc-40e7-43c1-b813-efea3752bc7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/sb-admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adaptation/css/sb-admin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/oa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/oa.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.css" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/dist/storymap.2.4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adaptation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adaptation/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/adaptation/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/assets/collaboration.geojson" beforeDir="false" afterPath="$PROJECT_DIR$/background/assets/collaboration.geojson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/css/storymap.2.3.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/background/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/background/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/Control.GlobeMiniMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/bouncemarker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/chroma.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/color.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/css/bootstrap-colorpicker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/css/bootstrap-colorpicker.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/css/bootstrap-colorpicker.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/css/bootstrap-colorpicker.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/js/bootstrap-colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/cp/js/bootstrap-colorpicker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/globeminimap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/jquery-2.2.4.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/leaflet.ajax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background/js/storymap.2.3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sb-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sb-admin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sb-admin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/oap140.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/oap140.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pacshell.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/pacshell.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/assets/species.csv" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/assets/species.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/dist/storymap.2.4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vulnerability/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/species - Copy.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/assets/data/states_centroids.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/css/oa.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/css/oa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/css/sb-admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/css/sb-admin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vulnerability/pnw/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
