@@ -126,7 +126,7 @@ var layers = {
 };
 
 var scenes = {
-    overview: {lat: 45, lng: -124, zoom: 7, name: 'Overview'},
+    title: {lat: 45, lng: -124, zoom: 7, name: 'Title'},
     whiskey: {lat: 45.408, lng: -123.950140, zoom: 13, name: 'Whiskey Creek', layers: [layers.hatchery, layers.estuaries, layers.shellfish]},
     network: {lat: 45, lng: -124, zoom: 7, name: 'Importance to Network', layers: [layers.hatchery2, layers.stakeholders, layers.shellfish]},
     seed: {lat: 45, lng: -124, zoom: 7, name: 'Oyster Seed Crisis', layers: [layers.hatchery3, layers.stakeholders2, layers.shellfish]},

@@ -14,6 +14,7 @@
   <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="dist/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="dist/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -21,15 +22,17 @@
 
   <!-- Custom styles for this template -->
   <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/sb-admin.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+<script type="text/javascript" src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand" href="#">Vulnerability & Adaptation to Ocean Acidification</a>
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="mainNav">
+    <a class="navbar-brand" id="title-text" href="#">Vulnerability & Adaptation to Ocean Acidification</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,17 +45,70 @@
           </a>
 
           <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="vulnerability/pnw">Map</a>
+            <a class="dropdown-item" href="vulnerability/pnw"><i class="fas fa-map align-center"></i> Map</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="background">Background</a>
+            <a class="dropdown-item" href="background"><i class="fas fa-book align-center"></i> Background</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="vulnerability">Vulnerability</a>
-            <a class="dropdown-item" href="adaptation">Adaptation</a>
+            <a class="dropdown-item" href="vulnerability"><i class="fas fa-book align-center"></i> Vulnerability</a>
+            <a class="dropdown-item" href="adaptation"><i class="fas fa-book align-center"></i> Adaptation</a>
           </div>
         </li>
+
+        <!--Info-->
+        <li class="nav-item">
+            <a class="nav-link" id="info" data-toggle="tooltip" data-placement="top" title="About this project">
+                <i class="fa fa-fw fa-info-circle align-center" data-toggle="modal" data-target="#info-modal"></i>
+                <span class="nav-icon-text" data-toggle="modal" data-target="#info-modal">About</span>
+            </a>
+        </li>
+
+        <!--GitHub-->
+        <li class="nav-item">
+            <a class="nav-link" id="github" data-toggle="tooltip" data-placement="top" title="GitHub" href="https://www.github.com/briangkatz/" target="_blank">
+                <i class="fab fa-fw fa-git-square align-center"></i>
+                <span class="nav-icon-text">GitHub</span>
+            </a>
+        </li>
+
+        <!--Facebook-->
+        <li class="nav-item">
+            <a class="nav-link" id="facebook" data-toggle="tooltip" data-placement="top" title="Share" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//briangkatz.github.io/oa/" target="_blank">
+                <i class="fab fa-fw fa-facebook-square align-center"></i>
+                <span class="nav-icon-text">Share</span>
+            </a>
+        </li>
+
+        <!--Twitter-->
+        <li class="nav-item">
+            <a class="nav-link" id="twitter" data-toggle="tooltip" data-placement="top" title="Tweet" href="https://twitter.com/home?status=https%3A//briangkatz.github.io/oa/" target="_blank">
+                <i class="fab fa-fw fa-twitter-square align-center"></i>
+                <span class="nav-icon-text">Tweet</span>
+            </a>
+        </li>
+
+        <!--CEOAS-->
+        <li class="nav-item text-center">
+            <a class="nav-link" id="osu" href="https://ceoas.oregonstate.edu/" target="_blank">
+                <img src="img/OSU_CEOAS_horizontal_2C_O_over_W.png" style="height:29px;" class="d-inline-block align-center image-responsive" alt="Oregon State University">
+            </a>
+        </li>
+
+        <!--NOAA OAP-->
+        <li class="nav-item text-center">
+            <a class="nav-link" id="oap" href="https://oceanacidification.noaa.gov/" target="_blank">
+                <img src="img/oap140.png" style="height:29px;" class="d-inline-block align-center image-responsive" alt="NOAA Ocean Acidification Program">
+            </a>
+        </li>
+
+        <!--Pacific Shellfish Institute-->
+        <li class="nav-item text-center">
+            <a class="nav-link" id="psi" href="http://www.pacshell.org/" target="_blank">
+                <img src="img/pacshell.png" style="height:29px;" class="d-inline-block align-center image-responsive" alt="NOAA Ocean Acidification Program">
+            </a>
+        </li>
+
       </ul>
     </div>
-  </div>
 </nav>
 
   <header class="masthead text-white text-center">
@@ -94,7 +150,7 @@
 
   <section class="showcase" id="showcaseSection">
     <div class="container-fluid p-0">
-      <div class="row no-gutters bg-dark">
+      <div class="row bg-dark">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/vulnerability.png');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
@@ -118,22 +174,22 @@
       <div class="row">
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <a href="https://www.oregonstate.edu/" target="_blank" style="text-decoration: none; color: #fff;">
-              <img class="img-fluid rounded-circle mb-3" src="img/osu.png" alt="Oregon State University">
+            <a href="https://ceoas.oregonstate.edu/" target="_blank" style="text-decoration: none; color: #fff;">
+              <img class="img-fluid rounded-circle mb-3 partners" src="img/OSU_CEOAS_horizontal_2C_O_over_B_square.png" alt="Oregon State University College of Earth, Ocean, and Atmospheric Sciences">
             </a>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <a href="https://oceanacidification.noaa.gov/" target="_blank" style="text-decoration: none; color: #fff;">
-              <img class="img-fluid rounded-circle mb-3" src="img/oap140.png" alt="NOAA Ocean Acidification Program">
+              <img class="img-fluid rounded-circle mb-3 partners" src="img/oap140_square.png" alt="NOAA Ocean Acidification Program">
             </a>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
             <a href="http://www.pacshell.org/" target="_blank" style="text-decoration: none; color: #fff;">
-              <img class="img-fluid rounded-circle mb-3" src="img/pacshell.png" alt="Pacific Shellfish Institute">
+              <img class="img-fluid rounded-circle mb-3 partners" src="img/pacshell_square.png" alt="Pacific Shellfish Institute">
             </a>
           </div>
         </div>
@@ -146,7 +202,8 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Thank you!</h2>
+          <h2 class="mb-4"><i>"[OA] can't keep us down. Where there's a will, there's a way to improvise, adapt, and overcome. Yes we can, and yes we will."</i></h2>
+            <h3 class="mb-4">– Shellfish farmer in Oregon</h3>
         </div>
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto"></div>
       </div>
@@ -154,41 +211,68 @@
   </section>
 
   <footer class="footer bg-dark">
-    <div class="container">
+    <div class="container" id="footer">
       <div class="row">
         <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto align-right">
           <ul class="list-inline mb-2">
-<!--            <li class="list-inline-item">-->
-<!--              <a href="#">About</a>-->
-<!--            </li>-->
-<!--            <li class="list-inline-item">&sdot;</li>-->
             <li class="list-inline-item">
               <a href="mailto:katzbr@oregonstate.edu">Contact</a>
             </li>
           </ul>
           <p class="text-muted small mb-4 mb-lg-0">&copy; <a href="https://briangkatz.github.io/">Brian G. Katz</a> 2020. All Rights Reserved.</p>
         </div>
-        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item mr-3">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=https://briangkatz.github.io/oa">
-                <i class="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item mr-3">
-              <a href="https://twitter.com/intent/tweet?url=https://briangkatz.github.io/oa&text=">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
       </div>
     </div>
   </footer>
 
+  <!--Info Modal-->
+  <div class="modal fade" id="info-modal" role="dialog">
+      <div class="modal-dialog modal-md">
+          <div class="modal-content">
+
+              <div class="modal-header">
+                  <h4 class="modal-title">About this project</h4>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <div class="modal-body">
+                  <h5><b>Overview</b></h5>
+                  <p>This project was supported by the <a href="https://noaa.gov" target="_blank">National Oceanic and Atmospheric Administration</a>'s <a href="https://oceanacidification.noaa.gov/" target="_blank">Ocean Acidification Program</a>, and was conducted by a research team at Oregon State University. The purpose of the project was to assess shellfish stakeholders' current and future vulnerability to ocean acidification (OA), and to identify pathways to successful adaptation. For more information about the project, click <a href="https://briangkatz.github.io/oa/background" target="_blank">here</a>.</p>
+                  <h5><b>Pages:</b></h5>
+                  <ol>
+                      <li>An interactive map of current and future species-specific risks to OA <a href="vulnerability/pnw"><i class="fas fa-map align-center"></i></a></li>
+                      <li>A story map on background information about OA and this project <a href="background"><i class="fas fa-book align-center"></i></a></li>
+                      <li>A story map on vulnerability to OA in the context of this project <a href="vulnerability"><i class="fas fa-book align-center"></i></a></li>
+                      <li>A story map on adaptation to OA in the context of a case study examined in this project <a href="adaptation"><i class="fas fa-book align-center"></i></a></li>
+                  </ol>
+                  <hr>
+                  <h5><b>Author: <a href="https://briangkatz.github.io" target="_blank">Brian G. Katz</a></b></h5>
+                  <p><small><a href="https://ceoas.oregonstate.edu/" target="_blank">College of Earth, Ocean, and Atmospheric Sciences</a> | <a href="https://oregonstate.edu" target="_blank">Oregon State University</a> | 2020</small></p>
+                  <div class="container d-flex h-100">
+                  <div class="row justify-content-center align-self-center">
+                      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <a href="https://ceoas.oregonstate.edu/" target="_blank"><img src="img/OSU_CEOAS_horizontal_2C_O_over_B.png" class="img-responsive img-thumbnail"/></a>
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <a href="https://oceanacidification.noaa.gov/" target="_blank"><img src="img/oap140.png" class="img-responsive img-thumbnail"/></a>
+                      </div>
+                      <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                          <a href="http://pacshell.org/" target="_blank"><img src="img/pacshell.png" class="img-responsive img-thumbnail"/></a>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </div>
+
   <!-- Bootstrap core JavaScript -->
   <script src="dist/jquery/jquery.min.js"></script>
   <script src="dist/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/sb-admin.min.js"></script>
 
 </body>
 
