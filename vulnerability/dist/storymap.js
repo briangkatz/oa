@@ -1,6 +1,6 @@
-// Modified by Bo Zhao, zhao2@oregonstate.edu
+// Modified by Brian Katz, katzbr@oregonstate.edu
 // Originally obtained from http://atlefren.github.io/storymap/
-// Updated on 05/04/2018 | version 2.4.0 | MIT License
+// Updated on 12/8/2020 | MIT License
 
 (function ($) {
 
@@ -182,7 +182,7 @@
 
             $(".storymap-map .leaflet-control-attribution")
                 .addClass("storymap-attribution")
-                .html("<a href='https://github.com/jakobzhao/storymap'><img src='img/logo.png' width='18px' target='_blank' > storymap.js </a>");
+                .html("<a href='https://github.com/atlefren/storymap/'><img src='img/logo.png' width='18px' target='_blank' > storymap.js </a>");
 
 
             if (settings.credits) {

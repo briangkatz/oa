@@ -1,8 +1,8 @@
 import pandas as pd
-infile = 'C:\\Workspace\\thesis\\boundaries\\watersheds_sensitivity.csv'
+infile = 'PATH_TO_CSV_FILE'
 df = pd.read_csv(infile)
 cols = list(df.columns)
-fields_to_remove = ['STATES', 'NAME']
+fields_to_remove = ['STATES', 'NAME']  # If columns aren't numeric, no z-score can be calculated
 # fields_to_remove = ['HUC8', 'NAME']
 for field in fields_to_remove:
     cols.remove(field)

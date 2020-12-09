@@ -1,8 +1,9 @@
 import pandas as pd
 
-infile_approved = r'C:/Workspace/thesis/DOH_data/Approved Harvest Site Data.xlsx'
-infile_inactive = r'C:/Workspace/thesis/DOH_data/Inactive Harvest Site Data.xlsx'
-infile_withdrawn = r'C:/Workspace/thesis/DOH_data/Withdrawn Harvest Site Data.xlsx'
+# Contact Washington State Department of Health for the latest data to include in the inputs folder
+infile_approved = r'inputs/Approved Harvest Site Data.xlsx'
+infile_inactive = r'inputs/Inactive Harvest Site Data.xlsx'
+infile_withdrawn = r'inputs/Withdrawn Harvest Site Data.xlsx'
 infiles = [infile_approved, infile_inactive, infile_withdrawn]
 # Concatenate the spreadsheets into one data frame
 dfs = []

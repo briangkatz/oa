@@ -2,8 +2,8 @@ import pandas as pd
 import json
 
 # Set input and output directories
-infile = 'boundaries/tribes_pnw_4326_images.csv'
-outfile = 'boundaries/photos.json'
+infile = 'inputs/CSV_FILE_NAME'  # input CSV file with list of image URL's and coordinates
+outfile = 'outputs/photos.json'
 
 photos = []
 

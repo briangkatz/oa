@@ -39,9 +39,9 @@
 
 ### Table 4. Scripts for performing analyses on pre-processed exposure and sensitivity data.
 
-| Name                                | Description                                                  | Usage                                                        |
-| ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| `analysis/exposure_1_oa_climate.py` | Calculates OA climate metrics from directory of 12-band GeoTIFF raster images with single variables, saving outputs as three single-band GeoTIFF raster images representing: 1) 30-year mean omega_arag between 1995-2025; 2) 30-year mean omega_arag between 2020-2050; and 3) change in 30-year mean omega_arag between 1995-2050. | Output raster data can be used to calculate zonal statistics (i.e. mean values) of pixels within polygons in QGIS. |
-| `analysis/wa_grower_summary_DOH.py` | Analyzes harvest site data from Washington State Department of Health to produce a summary CSV file with calculated mean acreage per firm. | Output used to create figure on cumulative WA shellfisheries over time. |
-| `analysis/z-score.py`               | Adds new fields and calculates z-scores for each existing numerical field. | Z-scores help identify high/low breaks in data fields.       |
+| Name                                  | Description                                                  | Usage                                                        |
+| ------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `analysis/1_oa_climate.py`            | Calculates OA climate metrics from directory of 12-band GeoTIFF raster images with single variables, saving outputs as three single-band GeoTIFF raster images representing: 1) 30-year mean omega_arag between 1995-2025; 2) 30-year mean omega_arag between 2020-2050; and 3) change in 30-year mean omega_arag between 1995-2050. | Output raster data can be used to calculate zonal statistics (i.e. mean values) of pixels within polygons in QGIS. |
+| `analysis/2_z-score.py`               | Adds new fields and calculates z-scores for each existing numerical field. | Z-scores help identify high/low breaks in data fields.       |
+| `analysis/3_wa_grower_summary_DOH.py` | Analyzes harvest site data from Washington State Department of Health to produce a summary CSV file with calculated mean acreage per firm. | Output used to create figure on cumulative WA shellfisheries over time. |
 

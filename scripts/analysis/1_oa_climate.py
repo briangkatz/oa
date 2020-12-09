@@ -5,8 +5,8 @@ import sys
 import gdal_calc
 
 # Set input & output directories. Input directory should contain annual GeoTIFF files with 12 bands representing months.
-in_dir = sys.path[0] + '\\oa_model_tif_years\\'
-out_dir = sys.path[0] + '\\outputs\\'
+in_dir = sys.path[0] + '/../preprocessing/outputs/oa_model_tif_years'
+out_dir = sys.path[0] + '/outputs/'
 
 # Set time range and sub-ranges. Sub-ranges are created because of gdal_calc's processing limit of 26 rasters (A-Z).
 years = range(1995, 2051)
