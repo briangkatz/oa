@@ -1,1 +1,1 @@
-# Adapting to Ocean Acidification
+Vulnerability and adaptation of Pacific Northwest shellfisheries to ocean acidification | Master's thesis | Oregon State University | December 8, 2020 | Author: Brian G. Katz
